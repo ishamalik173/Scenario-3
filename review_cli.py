@@ -14,7 +14,7 @@ Exit codes — CI depends on these being distinct:
 
     0  clean, or only non-blocking findings
     1  blocking findings (security/logic/typo at high or critical) -> block the merge
-    2  the reviewer itself failed (API error, bad config) -> not a verdict
+    2  the reviewer  itself failed (API error, bad config) -> not a verdict
 """
 
 from __future__ import annotations
