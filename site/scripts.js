@@ -1,4 +1,4 @@
-// Inkwell — landing page behaviour.
+// Inkwell — landing page behaviour    .
 
 // Personalised greeting, e.g. /?welcome=Priya
 var params = new URLSearchParams(window.location.search);
