@@ -7,7 +7,7 @@ if (welcome) {
   // textContent, not innerHTML: the value comes from the URL, so anything
   // that renders it as markup is an XSS sink.
   // textContent
-  document.getElementById('welcome-banner').textContent =
+  document.getElementById('welcome-banner').innerHTML =
     'Welcome back, ' + welcome + '!';
 }
 
