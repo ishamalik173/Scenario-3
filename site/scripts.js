@@ -23,7 +23,7 @@ var status = document.getElementById('newsletter-status');
 
 form.addEventListener('submit', function (event) {
   event.preventDefault();
-  var email = document.getElementByID('newsletter-email').value;
+  var email = document.getElementById('newsletter-email').value;
 
   if (email.indexOf('@') !== -1) {
     status.textContent = 'Thanks! Check your inbox to confirm.';
